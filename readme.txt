@@ -8,7 +8,7 @@ Stable tag: 0.1
 
 == Description ==
 
-This plugin can create an inner loop inside the main loop of a wordpress page. This inner loop allows user to iterate over the child page objects of the main page. 
+This plugin creates an inner loop inside the main loop of a wordpress page. This inner loop allows user to iterate over the child page objects of the main page. 
 
 
 == Installation ==

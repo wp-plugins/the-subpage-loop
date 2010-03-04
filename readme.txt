@@ -15,12 +15,10 @@ This plugin can create an inner loop inside the main loop of a wordpress page. T
 
 1. Upload `the-subpage-loop.php` to the `/wp-content/plugins/` directory
 1. Activate the plugin through the 'Plugins' menu in WordPress
-1. Add the following code in the page.php in your themes. Make sure that the code snippet is inside the main WP    LOOP. <?php while(have_subpages()): ?>
-           <h2><?php the_subpage_title(); ?></h2>
-           <div class="entry">
-             <?php the_subpage_content(); ?>
-           </div>
-        <?php endwhile; ?>
+1. Add the following code in the page.php in your themes. Make sure that the code snippet is inside the main WP    LOOP.  while(have_subpages()): 
+            the_subpage_title();
+            the_subpage_content(); 
+          endwhile;
 
 == Frequently Asked Questions ==
 
